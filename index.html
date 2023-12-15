@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #4A49B3;
+        }
+
+        header {
+            background-color: #122E57;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: #130F30;
+            background-color: #122E57;
+            padding: 10px;
+            padding-left: 25px;
+            font-family: cursive;
+        }
+
+        nav h1 {
+            margin: 0;
+        }
+
+         button {
+            text-decoration: none;
+            color: #fff;
+            padding: 8px 16px;
+            border-radius: 5px;
+            background-color: #122E57;
+            transition: background-color 0.3s;
+        }
+
+         button:hover {
+            background-color: #005580;
+        }
+
+        .round-photo-container {
+            overflow: hidden;
+            border-radius: 50%;
+            width: 250px;
+            height: 250px;
+        }
+
+        .round-photo {
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+           border-radius: 50%;
+        }
+
+        .square {
+            width: 150px;
+            height: 150px;
+            background-color: #2E2A6F;
+            color: #ffffff; 
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .emoji {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .container {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #75B1D4;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            display: grid;
+            gap: 10px;
+        }
+
+        label {
+            font-weight: bold;
+            color: #1E4A64;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #1E4A64;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #005580;
+        }
+        .custom-square {
+            width: 150px;
+            height: 150px;
+            background-color: #4A49B3;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: 2px solid #ffffff; 
+        }
+
+        .custom-emoji {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        #projects {
+    background-color: ;
+    padding: 50px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: 300px; 
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.project h3 {
+    color: #333;
+}
+
+.project p {
+    color: #666;
+}
+footer {
+    background-color: #ffecf0;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.contact-info,
+.social-media,
+.copyright {
+    margin-bottom: 20px;
+}
+
+
+.contact-info h3,
+.social-media h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+
+.social-media a {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+
+.social-media a:hover {
+    color: #ffecf0;
+}
+
+
+
+.copyright p {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h1>Amelia Stefo</h1>
+            <button>Home</button>
+            <button>About me</button>
+            <button>Projects</button>
+            <button>Contacts</button>
+        </nav>
+    </header>
+    <div>
+    	<div class="round-photo-container" style="margin-left: 800px; margin-top: 50px;">
+            <img src="foto.jpeg" class="round-photo">
+        </div>
+        <h3 style="padding-left:120px; color: whitesmoke; margin-top: -240px ;">Hello, I'm</h3>
+        <h2 style="padding-left:120px;color: whitesmoke;">Amelia Stefo</h2>
+        <p style="padding-left:120px; color: whitesmoke;">Student at "Hermann Gmeiner" ICT high school,<br>I specialize in developing fluid web interactions<br> that provide a seamless and intuitive experience<br> for users.</p>
+        <button style="margin-left: 130px; margin-top: 30px">About me</button>
+        <button style="margin-left: 40px; margin-top: 30px">Projects</button>
+    </div>
+    <div style="padding-left:120px; color: whitesmoke; margin-top: 90px">
+    	<h3>● About me</h2>
+        <p>Greetings! 👋 My name is Amelia Stefo and i'm a budding Junior Web Developer passionate about crafting digital experiences. With a foundation in Web Development, I've embarked on a journey to transform ideas into interactive and user-friendly websites. Eager to contribute my skills and learn from every coding challenge, I'm dedicated to continuous growth and embracing the dynamic world of web technologies. Let's code the future together! 💻✨</p>
+        <h1 style="font-size: 50px;"><b>2+</b></h1> <p style="margin-left: 80px; margin-top: -85px">With a track record of valuable experience, I specialize in the art of crafting applications, prioritizing a seamless web experience for end users. <br>My focus is on building innovative and user-centric apps, where every line of code contributes to a journey<br> of digital excellence. </p>
+        <div class="square"  style="margin-left:250px;"><br><br>
+        <span class="emoji">💻</span>
+        <p>Web Development</p></div>
+        <div class="square" style="margin-left:450px; margin-top:-190px"><br><br>
+        <span class="emoji">🔍</span>
+        <p>C# Programming</p></div>
+        <div class="square" style="margin-left:650px; margin-top:-190px"><br><br>
+        <span class="emoji">🤖</span>
+        <p>C++ Programming</p></div>
+    </div>
+    <div style="padding-left:120px;color: whitesmoke; margin-top: 90px">
+    	<h3>● The service i offer:</h2>
+            <div class="custom-square" style="margin-left:150px">
+        <span class="custom-emoji">💻</span>
+        <p>Web Development</p>
+        <p>I specialize in creating dynamic and responsive websites</p>
+    </div>
+
+    <div class="custom-square" style="margin-left:450px; margin-top:-190px">
+        <span class="custom-emoji">🔍</span>
+        <p>C# Programming</p>
+        <p>With expertise in C# programming, I craft robust and efficient solutions.</p>
+    </div>
+
+    <div class="custom-square" style="margin-left:750px; margin-top:-190px">
+        <span class="custom-emoji">🤖</span>
+        <p>C++ Programming</p>
+        <p>In the realm of C++ programming, I engineer high-performance applications,</p>
+    </div>
+    </div>
+    <div style="padding-left:120px; color: whitesmoke; margin-top: 90px">
+    	<h3>● Featured projects:</h2>
+            <div class="project">
+            <a href="project2-details.html"> 
+                <img src="foto2.jpeg" alt="Project 2">
+            </a>
+            <h3>Project 1</h3>
+            <p>Urban Reef represents a transformative initiative dedicated to the sustainable revitalization of urban communities.</p>
+        </div>
+        <div class="project" style="margin-left: 400px; margin-top: -500px">
+            <a href="project2-details.html"> 
+                <img src="https://tse3.mm.bing.net/th?id=OIP._tYLabifTyTIvTzr9MgXrgHaE6&pid=Api&P=0&h=220" alt="Project 2">
+            </a>
+            <h3>Project 2</h3>
+            <p>I have created a webpage for my school library that includes all the school and other books we use at school</p>
+        </div>
+        <div class="project" style="margin-left: 800px; margin-top: -500px">
+            <a href="weather.html"> 
+                <img src="https://images.ctfassets.net/hrltx12pl8hq/6TIZLa1AKeBel0yVO7ReIn/1fc0e2fd9fcc6d66b3cc733aa2547e11/weather-images.jpg?fit=fill&w=1200&h=630" alt="Project 2">
+            </a>
+            <h3>Project 3</h3>
+            <p>This app displays current and historical weather data using the provided API.</p>
+        </div>
+    </div>
+    <div style="padding-left:120px; color: whitesmoke; margin-top: 200px">
+    	<h3 style="margin-top: 300px;">● Connect with me:</h2>
+        <div class="container">
+        <h2 style="color: #1E4A64;">Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    </div>
+    <div>
+        <footer style="background-color: #75B1D4;">
+    <div class="contact-info">
+        <h3>Contact Information</h3>
+        <p>Email: amelia.stefo06@gmail.com</p>
+        <p>Phone: +355 697644423</p>
+    </div>
+
+
+    <div class="copyright">
+        <p>&copy; 2023 Amelia. All rights reserved.</p>
+    </div>
+</footer>
+    </div>
+</body>
+</html>
